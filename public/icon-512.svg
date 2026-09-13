@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b45309" />
+      <stop offset="50%" stop-color="#78350f" />
+      <stop offset="100%" stop-color="#1c1917" />
+    </linearGradient>
+    <linearGradient id="teaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bgGrad)" />
+  <!-- Steam lines -->
+  <path d="M200 130 C190 100, 220 70, 200 40" stroke="#fef3c7" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.8" />
+  <path d="M256 120 C246 90, 276 60, 256 30" stroke="#fef3c7" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.9" />
+  <path d="M312 130 C302 100, 332 70, 312 40" stroke="#fef3c7" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.8" />
+  <!-- Chai Glass / Kulhad Body -->
+  <path d="M140 160 L180 410 C183 430, 200 445, 220 445 L292 445 C312 445, 329 430, 332 410 L372 160 Z" fill="#451a03" stroke="#f59e0b" stroke-width="10" />
+  <!-- Cutting Chai Glass stripes -->
+  <path d="M152 230 L360 230" stroke="#78350f" stroke-width="8" stroke-dasharray="16 12" />
+  <path d="M165 310 L347 310" stroke="#78350f" stroke-width="8" stroke-dasharray="16 12" />
+  <!-- Golden Tea Liquid inside -->
+  <path d="M158 200 L183 395 C185 408, 196 418, 210 418 L302 418 C316 418, 327 408, 329 395 L354 200 Z" fill="url(#teaGrad)" />
+  <!-- Saucer / Base -->
+  <ellipse cx="256" cy="465" rx="150" ry="18" fill="#92400e" stroke="#f59e0b" stroke-width="6" />
+</svg>

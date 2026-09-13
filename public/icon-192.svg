@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="bgGrad192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b45309" />
+      <stop offset="50%" stop-color="#78350f" />
+      <stop offset="100%" stop-color="#1c1917" />
+    </linearGradient>
+    <linearGradient id="teaGrad192" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="40" fill="url(#bgGrad192)" />
+  <path d="M75 48 C70 38, 82 26, 75 16" stroke="#fef3c7" stroke-width="4.5" stroke-linecap="round" fill="none" opacity="0.8" />
+  <path d="M96 44 C91 34, 103 22, 96 12" stroke="#fef3c7" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.9" />
+  <path d="M117 48 C112 38, 124 26, 117 16" stroke="#fef3c7" stroke-width="4.5" stroke-linecap="round" fill="none" opacity="0.8" />
+  <path d="M52 60 L68 154 C69 162, 75 168, 83 168 L109 168 C117 168, 123 162, 124 154 L140 60 Z" fill="#451a03" stroke="#f59e0b" stroke-width="4" />
+  <path d="M59 75 L70 148 C71 153, 75 157, 80 157 L112 157 C117 157, 121 153, 122 148 L133 75 Z" fill="url(#teaGrad192)" />
+  <ellipse cx="96" cy="175" rx="56" ry="7" fill="#92400e" stroke="#f59e0b" stroke-width="2.5" />
+</svg>

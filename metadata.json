@@ -1,0 +1,6 @@
+{
+  "name": "ChaiKhata - Tea Stall Manager",
+  "description": "Manage inventory, quick POS daily sales, UPI digital payments with dynamic QR codes, and Udhar credit ledger for regular tea stall customers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
